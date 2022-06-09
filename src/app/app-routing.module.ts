@@ -3,6 +3,11 @@ import { RouterModule, Routes } from '@angular/router';
 import { ChildComponent } from './Pages/InputDecorator/child/child.component';
 import { ParentComponent } from './Pages/InputDecorator/parent/parent.component';
 import { MainPageComponent } from './Pages/main-page/main-page.component';
+import { StudentComponent } from './Pages/OutputDecorator/student/student.component';
+import { TeacherComponent } from './Pages/OutputDecorator/teacher/teacher.component';
+import { Employee1Component } from './Pages/UsingService/employee1/employee1.component';
+import { Employee2Component } from './Pages/UsingService/employee2/employee2.component';
+import { BossComponent } from './Pages/ViewChildDecorator/boss/boss.component';
 
 const routes: Routes = [
   {
@@ -14,9 +19,21 @@ const routes: Routes = [
     component: ParentComponent
     },
     {
-      path:'ChildComponent',
-      component: ChildComponent
-      },
+      path:'TeacherComponent',
+      component: TeacherComponent
+    },
+    {
+      path:'BossComponent',
+      component: BossComponent
+    },
+    {
+      path:'Employee1Component',
+      component: Employee1Component
+    },
+    {
+      path:'Employee2Component',
+      component: Employee2Component
+    },
       
 
 ];

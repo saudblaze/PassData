@@ -1,0 +1,12 @@
+
+
+<p>
+	teacher Component
+</p>
+
+<!-- <p>
+	This is comming from child data : {{ childData }}
+</p> -->
+<br/>
+<input [(ngModel)]="childData" class="form-control Report-1" type="text">
+<app-student (emitData)="emittedDataByChild($event)"></app-student>

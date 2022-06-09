@@ -20,13 +20,13 @@ export class MainPageComponent implements OnInit {
   }
 
   OutputDecorator(){
-    this.router.navigate(['ParentComponent']);
+    this.router.navigate(['TeacherComponent']);
   }
   ViewChildDecorator(){
-    this.router.navigate(['ParentComponent']);
+    this.router.navigate(['BossComponent']);
   }
   Service(){
-    this.router.navigate(['ParentComponent']);
+    this.router.navigate(['Employee1Component']);
   }
 
 }
