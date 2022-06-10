@@ -12,8 +12,12 @@ export class Employee1Component implements OnInit {
 
   ngOnInit(): void {
   }
-  SetName(){
+  GreetEmployee(){
     debugger
-    this.dataservice.changeName(this.name);
+    this.dataservice.sendMessage("Good Morning Employee 1 !");
+  }
+  ApreciateEmployee(){
+    debugger
+    this.dataservice.sendMessage("Well Done !");
   }
 }
