@@ -29,4 +29,9 @@ export class MainPageComponent implements OnInit {
     this.router.navigate(['Employee1Component']);
   }
 
+  ObservableSubscribe()
+  {
+    this.router.navigate(['ObservableSubscribe']);
+  }
+
 }

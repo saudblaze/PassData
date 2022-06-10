@@ -18,6 +18,7 @@ import { BossComponent } from './Pages/ViewChildDecorator/boss/boss.component';
 import { EmployeeComponent } from './Pages/ViewChildDecorator/employee/employee.component';
 import { Employee1Component } from './Pages/UsingService/employee1/employee1.component';
 import { Employee2Component } from './Pages/UsingService/employee2/employee2.component';
+import { ObservableSubscribeComponent } from './Pages/observable-subscribe/observable-subscribe.component';
 
 
 @NgModule({
@@ -31,7 +32,8 @@ import { Employee2Component } from './Pages/UsingService/employee2/employee2.com
     BossComponent,
     EmployeeComponent,
     Employee1Component,
-    Employee2Component,    
+    Employee2Component,
+    ObservableSubscribeComponent,    
   ],
   imports: [
     BrowserModule,

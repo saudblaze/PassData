@@ -3,6 +3,7 @@ import { RouterModule, Routes } from '@angular/router';
 import { ChildComponent } from './Pages/InputDecorator/child/child.component';
 import { ParentComponent } from './Pages/InputDecorator/parent/parent.component';
 import { MainPageComponent } from './Pages/main-page/main-page.component';
+import { ObservableSubscribeComponent } from './Pages/observable-subscribe/observable-subscribe.component';
 import { StudentComponent } from './Pages/OutputDecorator/student/student.component';
 import { TeacherComponent } from './Pages/OutputDecorator/teacher/teacher.component';
 import { Employee1Component } from './Pages/UsingService/employee1/employee1.component';
@@ -34,7 +35,12 @@ const routes: Routes = [
       path:'Employee2Component',
       component: Employee2Component
     },
+    {
+      path:'ObservableSubscribe',
+      component: ObservableSubscribeComponent
+    },
       
+    
 
 ];
 
