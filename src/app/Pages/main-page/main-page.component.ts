@@ -34,4 +34,9 @@ export class MainPageComponent implements OnInit {
     this.router.navigate(['ObservableSubscribe']);
   }
 
+  DataTableExample()
+  {
+    this.router.navigate(['DataTableExample']);
+  }
+
 }

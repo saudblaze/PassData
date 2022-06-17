@@ -19,7 +19,8 @@ import { EmployeeComponent } from './Pages/ViewChildDecorator/employee/employee.
 import { Employee1Component } from './Pages/UsingService/employee1/employee1.component';
 import { Employee2Component } from './Pages/UsingService/employee2/employee2.component';
 import { ObservableSubscribeComponent } from './Pages/observable-subscribe/observable-subscribe.component';
-
+import { DataTableExmapleComponent } from './Pages/data-table-exmaple/data-table-exmaple.component';
+import { MatTableModule } from '@angular/material/table';
 
 @NgModule({
   declarations: [
@@ -33,11 +34,14 @@ import { ObservableSubscribeComponent } from './Pages/observable-subscribe/obser
     EmployeeComponent,
     Employee1Component,
     Employee2Component,
-    ObservableSubscribeComponent,    
+    ObservableSubscribeComponent,
+    DataTableExmapleComponent,    
+    
   ],
   imports: [
     BrowserModule,
     MatSliderModule,
+    MatTableModule,
     AppRoutingModule,
     BrowserAnimationsModule,
     MatButtonModule,

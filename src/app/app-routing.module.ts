@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
+import { DataTableExmapleComponent } from './Pages/data-table-exmaple/data-table-exmaple.component';
 import { ChildComponent } from './Pages/InputDecorator/child/child.component';
 import { ParentComponent } from './Pages/InputDecorator/parent/parent.component';
 import { MainPageComponent } from './Pages/main-page/main-page.component';
@@ -39,7 +40,10 @@ const routes: Routes = [
       path:'ObservableSubscribe',
       component: ObservableSubscribeComponent
     },
-      
+    {
+      path:'DataTableExample',
+      component: DataTableExmapleComponent
+    }, 
     
 
 ];
